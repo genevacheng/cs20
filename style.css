@@ -84,8 +84,12 @@ button:hover {
     color: #ffffff;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 form {
-    margin: 0 25%;
+    margin: 0 20%;
 }
 
 fieldset {
