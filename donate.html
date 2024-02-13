@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Donate to ORB</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" style="background-color: #ee903e"><b>ORB</b></a>
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="build.html">BUILD</a></li>
+                <li><a class="active" href="donate.html">DONATE</a></li>
+            </ul>
+        </div>
+        <div class="page-title">
+            <h1>DONATE</h1>
+            <p style="margin-bottom: 50px">Empower the hands that build hands</p>
+        </div>
+        <form method="get" action="#">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="left">
+                    <label>First Name</label><br/>
+                    <input type="text" name="first-name"/><br/>
+                </div>
+                <div>
+                    <label>Last Name</label><br/>
+                    <input type="text" name="last-name"/><br/>
+                </div>
+                <div>
+                    <label>Email</label><br/>
+                    <input type="email" name="email" style="width: 100%"/><br/>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Donation Amount</legend>
+                <input type="radio" name="donation" id="10" value="5"/>
+                <label for="10">$10</label>
+                <input type="radio" name="donation" id="25" value="25"/>
+                <label for="25">$25</label>
+                <input type="radio" name="donation" id="50" value="50"/>
+                <label for="50">$50</label>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Method</legend>
+                <div class="left">
+                    <label>Credit Card #</label><br/>
+                    <input type="text" name="card-num"/><br/>
+                </div>
+                <div class="left">
+                    <label>Exp. Date</label><br/>
+                    <input type="text" name="exp"/><br/>
+                </div>
+                <div>
+                    <label>CVV</label><br/>
+                    <input type="text" name="cvv"/><br/>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Billing Address</legend>
+                <div>
+                    <label>Address Line 1</label><br/>
+                    <input type="text" name="address-1" style="width: 100%"/><br/>
+                </div>
+                <div>
+                    <label>Address Line 2</label><br/>
+                    <input type="text" name="address-2" style="width: 100%"/><br/>
+                </div>
+                <div class="left">
+                    <label>City</label><br/>
+                    <input type="text" name="city"/><br/>
+                </div>
+                <div class="left">
+                    <label>State</label><br/>
+                    <input type="text" name="state"/><br/>
+                </div>
+                <div>
+                    <label>ZIP Code</label><br/>
+                    <input type="text" name="zip"/><br/>
+                </div>
+            </fieldset>
+            <div style="text-align: center">
+                <input class="last" type="submit" value="CHANGE A LIFE TODAY"/>
+            </div>
+        </form>
+    </body>
+</html>

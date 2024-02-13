@@ -1,0 +1,125 @@
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 25px;
+}
+
+.header {
+    background-color: #36454F;
+    overflow: hidden;
+    border-bottom: 2px solid #abc4d4;
+}
+
+.header .logo {
+    background-color: #ee903e;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-align: center;
+    float: left;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.header li {
+    float: left;
+}
+
+.header ul a:hover {
+    background-color: #f2f2f2;
+    color: #36454F !important;
+}
+
+.header ul a.active {
+    color: #add8e6;
+}
+
+.main-title {
+    margin: 15vh 0 10vh 0;
+    font-size: 64px;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content {
+    margin: 0 20vw;
+}
+
+.content .last {
+    margin-bottom: 15vh;
+}
+
+.content button {
+    margin: 10px 0;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #36454F;
+    font-size: 16px;
+    width: 400px;
+    max-width: 50vw;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #36454F;
+    color: #ffffff;
+}
+
+a:link {
+    color: #008080;
+}
+
+form {
+    margin: 0 25%;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+input {
+    margin: 5px 0 10px 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    border: solid #36454F;
+    border-radius: 25px;
+    color: #36454F;
+    font-family: "Montserrat";
+    font-size: 18px;
+    width: 97.5%;
+    margin: 10px 0 100px 0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #36454F;
+    color: #ffffff;
+}
+
+.left {
+    float: left;
+    margin: 0 10px 0 0;
+}
